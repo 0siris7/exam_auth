@@ -1,0 +1,29 @@
+{% include 'publicheader.html' %}
+
+
+<form method="post" enctype="multipart/form-data">
+	<table>
+		<tr>
+			<td>Upload First Image</td>
+			<td><input type="file" name="image1"></td>
+		</tr>
+		<tr>
+			<td>Upload Second Image</td>
+			<td><input type="file" name="image2"></td>
+		</tr>
+		<tr>
+			<td>Upload Third Image</td>
+			<td><input type="file" name="image3"></td>
+		</tr>
+		<tr>
+			<td>Upload Id Card Number Image</td>
+			<td><input type="file" name="image4"></td>
+		</tr>
+	
+
+	<input type="submit" name="submit" value="Upload">
+
+
+</form>
+
+{% include 'footer.html' %}
